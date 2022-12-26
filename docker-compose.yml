@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  jekyll:
+    image: jekyll/jekyll
+    # ports:
+    #   - "4000:4000"
+    network_mode: 'host'
+    volumes:
+      - .:/pages
+    working_dir: /pages
+    command: 
+      - /bin/bash 
+      - -c 
+      - |
+        bundle install
+        bundle exec jekyll serve
+
+
