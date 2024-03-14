@@ -31,7 +31,7 @@ description: >
 
 ## 目标结构
 
-![](/assets/img/blog/docker/architecture.png)
+![](/assets/img/blog/linux-auto-test/architecture.png)
 
 官方这里给出了一个预设的结构，基本可以满足目前的需求，其中：
 
@@ -272,10 +272,9 @@ tbot-test-job:   # This job runs in the test stage.
 ```
 
 ## 运行效果
+![](/assets/img/blog/linux-auto-test/summary.png)
 
-![](/assets/img/blog/docker/summary.png)
-
-![](/assets/img/blog/docker/test_report.png)
+![](/assets/img/blog/linux-auto-test/test_report.png)
 
 ```bash
 ============================= test session starts ==============================
